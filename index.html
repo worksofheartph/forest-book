@@ -11,7 +11,28 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div class="position-fixed d-flex flex-column align-items-center" id="nav">
+    <button class="previous"><img src="img/arrow.svg"></button> 
+    
+    <nav class="nav navbar navbar-light navbar-fixed-top">
+      <ul class="nav navbar-nav align-items-center">
+          <li class="active"><a class="nav-link js-scroll-trigger p-0" href="#hero-top"><img src="img/nav-home.svg"></a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#age-sec">Intro</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#linking-sec">1</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#network-sec">2</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#protecting-sec">3</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#indigenous-sec">4</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#nexus-sec">5</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#examine-sec">6</a></li>
+          <li><a class="nav-link js-scroll-trigger" href="#decision-sec">Down<br>load</a></li>
+      </ul>
+    </nav>
+
+    <button class="next"><img src="img/arrow.svg"></button>
+  </div>
+
 
   <section id="hero">
     <div id="hero-top">
@@ -46,7 +67,9 @@
     </div>
   </section>
 
-  <div class="position-relative">
+  
+
+  <div class="position-relative" id="scroll">
     <section id="age-sec" class="position-absolute">
       <div class="container">
         <div class="col-md-9 float-right">

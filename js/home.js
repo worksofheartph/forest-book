@@ -23,4 +23,29 @@ jQuery(document).ready(function() {
   });
 
   // document ready
+
+
+  jQuery('body').scrollspy({ 
+    target: '.navbar'
+  })
+
+  jQuery('.next').click(function (e) {  
+      var current = jQuery('.navbar ul li.active');
+      var next = jQuery('.navbar ul li.active').next().find('a').attr('href');
+      jQuery('html, body').animate({
+          scrollTop: jQuery(next).offset().top
+      }, 500);
+      jQuery('.navbar ul li.active').next().addClass('active');
+      jQuery(current).removeClass('active');
+  })
+
+  jQuery('.previous').click(function (e) {
+      var current = jQuery('.navbar ul li.active');
+      var prev = jQuery('.navbar ul li.active').prev().find('a').attr('href');
+      jQuery('html, body').animate({
+          scrollTop: jQuery(prev).offset().top
+      }, 500);
+      jQuery('.navbar ul li.active').prev().addClass('active');
+      jQuery(current).removeClass('active');
+  })
 });
