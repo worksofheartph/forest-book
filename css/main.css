@@ -241,7 +241,7 @@ section {
   background-repeat: no-repeat;
   background-position: top, bottom;
   background-size: contain;
-  transform: translateY(718%);
+  transform: translateY(727%);
   width: 100%;
   top: 0;
   padding-bottom: 10rem;
@@ -532,7 +532,7 @@ section {
 }
 
 #linkinginfo{
-    transform: translateY(245%);
+    transform: translateY(236%);
     width: 100%;
     padding-top: 3rem;
 }
@@ -551,7 +551,7 @@ section {
   padding-bottom: 10rem;
 }
 #networkinfo{
-  transform: translateY(415%);
+  transform: translateY(446%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -571,7 +571,7 @@ section {
 }
 
 #protectinfo{
-  transform: translateY(773%);
+  transform: translateY(751%);
   width: 100%;
   padding-top: 5.5rem;
 }
@@ -596,7 +596,7 @@ section {
   }
 
 #indigenousinfo{
-  transform: translateY(985%);
+  transform: translateY(835%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -615,7 +615,7 @@ section {
     transform: translateY(5%);
   }
 #nexusinfo{
-  transform: translateY(1183%);
+  transform: translateY(1253%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -634,7 +634,7 @@ section {
     transform: translateY(1%);
   }
 #examineinfo{
-  transform: translateY(1364%);
+  transform: translateY(1405%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -746,7 +746,7 @@ color: white;
     padding: 50rem 0 15rem;
   }
   #linkinginfo {
-    transform: translateY(284%);
+    transform: translateY(273%);
   }
     #linkinginfo img {
       transform: translateY(-25%) !important;
@@ -756,7 +756,7 @@ color: white;
     padding-bottom: 13rem;
   }
   #networkinfo {
-    transform: translateY(509%);
+    transform: translateY(547%);
     padding-top: 0rem;
   }
     #networkinfo img {
@@ -767,22 +767,22 @@ color: white;
     padding-top: 48rem;
   }
   #protectinfo {
-    transform: translateY(856%);
+    transform: translateY(831%);
     padding-top: 4rem;
   }
     #protectinfo img{
       transform: translateY(-57%);
     }
   #indigenous-sec {
-    transform: translateY(555%);
+    transform: translateY(558%);
     padding-top: 26rem;
     padding-bottom: 15rem;
   }
   #indigenousinfo {
-    transform: translateY(1060%);
+    transform: translateY(897%);
   }
   #nexus-sec {
-    transform: translateY(690%);
+    transform: translateY(715%);
     padding-top: 35rem;
     padding-bottom: 11rem;
   }
@@ -792,10 +792,10 @@ color: white;
       transform: translateY(2%);
     }
   #nexusinfo {
-    transform: translateY(1265%);
+    transform: translateY(1365%);
   }
   #examine-sec{
-    transform: translateY(1025%);
+    transform: translateY(1045%);
     padding-top: 22rem;
     padding-bottom: 12rem;
   }
@@ -805,10 +805,10 @@ color: white;
       transform: translateY(2%);
     }
   #examineinfo {
-    transform: translateY(1445%);
+    transform: translateY(1495%);
   }
   #decision-sec{
-    transform: translateY(945%);
+    transform: translateY(962%);
     background: url(../img/dec-img-left.png) top left no-repeat,
                 url(../img/dec-img-right.png) top right no-repeat,
                 url(../img/top-green-dw-white.png) top no-repeat,
@@ -817,10 +817,10 @@ color: white;
     background-size: auto, auto, auto, contain;
   }
   #download-sec {
-    transform: translateY(745%);
+    transform: translateY(768%);
   }
   #footer{
-    transform: translateY(2465%) !important;
+    transform: translateY(2500%) !important;
   }
 }
 
@@ -836,38 +836,38 @@ color: white;
     padding-bottom: 10.5rem;
   }
   #footer{
-    transform: translateY(2386%);
+    transform: translateY(2382%);
   }
 }
 
 @media (max-width: 1200px){
   #networkinfo {
-    transform: translateY(450%);
+    transform: translateY(487%);
     width: 100%;
     padding-top: 1rem;
   }
   #indigenousinfo {
-    transform: translateY(1049%);
+    transform: translateY(893%);
     width: 100%;
     padding-top: 2rem;
   }
   #nexus-sec {
-    transform: translateY(780%);
+    transform: translateY(796%);
   }
   #nexusinfo {
-    transform: translateY(1170%);
+    transform: translateY(1260%);
   }
   #examine-sec {
-    transform: translateY(913%);
+    transform: translateY(923%);
   }
   #decision-sec{
     transform: translateY(900%);
   }
   #download-sec{
-    transform: translateY(714%);
+    transform: translateY(723%);
   }
   #footer{
-    transform: translateY(2292%);
+    transform: translateY(2290%);
   }
 }
 
@@ -879,33 +879,33 @@ color: white;
     padding: 23rem 0px 35rem;
   }
   #linkinginfo {
-    transform: translateY(218%);
+    transform: translateY(212%);
   }
   #networkinfo {
-    transform: translateY(458%);
+    transform: translateY(495%);
   }
   #protectinfo {
-    transform: translateY(758%);
+    transform: translateY(746%);
   }
   #indigenous-sec {
-    transform: translateY(600%);
+    transform: translateY(610%);
   }
   #indigenousinfo {
-    transform: translateY(1030%);
+    transform: translateY(850%);
   }
   #nexus-sec {
-    transform: translateY(1028%);
+    transform: translateY(1070%);
     padding-top: 17rem;
   }
   #nexusinfo {
-    transform: translateY(1125%);
+    transform: translateY(1222%);
   }
   #examine-sec {
-    transform: translateY(1068%);
+    transform: translateY(1130%);
     padding-top: 16rem;
   }
   #examineinfo {
-    transform: translateY(1210%);
+    transform: translateY(1305%);
   }
   #decision-sec{
     background: url("../img/dec-img-left.png") top left no-repeat,
@@ -913,41 +913,56 @@ color: white;
               url("../img/top-green-dw-white.png") top no-repeat,
               url("../img/bottom-green-down-lime.png") bottom no-repeat,
               linear-gradient(180deg, rgba(218,244,244,0) 30%, rgba(35,65,53,1) 30%);
-    transform: translateY(1070%);
+    transform: translateY(1115%);
     padding-bottom:8rem;
   }
   #download-sec{
-    transform: translateY(776%);
+    transform: translateY(806%);
   }
   #footer{
-    transform: translateY(2266%);
+    transform: translateY(2350%);
   }
 }
 
 @media only screen and (max-width: 990px) {
   #linkinginfo {
-    transform: translateY(209%);
+    transform: translateY(200%);
   }
   #networkinfo {
-    transform: translateY(428%);
+    transform: translateY(456%);
   }
   #protecting-sec {
     transform: translateY(385%);
   }
   #protectinfo {
-    transform: translateY(734%);
+    transform: translateY(717%);
   }
   #indigenous-sec {
-    transform: translateY(590%);
+    transform: translateY(592%);
+  }
+  #indigenousinfo {
+    transform: translateY(775%);
   }
   #nexus-sec {
-    transform: translateY(945%);
+    transform: translateY(960%);
   }
   #nexusinfo {
-    transform: translateY(1077%);
+    transform: translateY(1165%);
+  }
+  #examine-sec {
+    transform: translateY(1050%);
+  }
+  #examineinfo {
+    transform: translateY(1300%);
+  }
+  #decision-sec{
+    transform: translateY(1260%);
+  }
+  #download-sec {
+    transform: translateY(928%);
   }
   #footer {
-    transform: translateY(2185%);
+    transform: translateY(2500%);
   }
 }
 
@@ -970,41 +985,44 @@ color: white;
     position: relative;
     top: -80;
   }
+  #linkinginfo {
+    transform: translateY(196%);
+  }
   #network-sec{
     transform: translateY(215%);
   }
   #networkinfo {
-    transform: translateY(404%);
+    transform: translateY(430%);
   }
   #protecting-sec {
     transform: translateY(390%);
   }
   #protectinfo {
-    transform: translateY(695%);
+    transform: translateY(679%);
   }
   #indigenous-sec {
     transform: translateY(650%);
   }
   #indigenousinfo {
-    transform: translateY(960%);
+    transform: translateY(730%);
   }
   #nexus-sec {
-    transform: translateY(1022%);
+    transform: translateY(1050%);
   }
   #nexusinfo {
-    transform: translateY(1005%)
+    transform: translateY(1095%)
   }
   #examine-sec {
-    transform: translateY(1202%);
+    transform: translateY(1220%);
   }
   #examineinfo {
-    transform: translateY(1175%);
+    transform: translateY(1215%);
   }
   #decision-sec{
-    transform: translateY(1186%);
+    transform: translateY(1202%);
   }
   #download-sec {
-    transform: translateY(851%);
+    transform: translateY(885%);
   }
   #footer{
     transform: translateY(2337%);
@@ -1013,37 +1031,40 @@ color: white;
 
 @media only screen and (max-width: 767px) {
   #linkinginfo {
-    transform: translateY(171%);
+    transform: translateY(174%);
   }
   #network-sec {
     transform: translateY(235%);
   }
   #networkinfo {
-    transform: translateY(439%);
+    transform: translateY(448%);
   }
   #protecting-sec {
     transform: translateY(406%);
   }
   #protectinfo {
-    transform: translateY(650%);
+    transform: translateY(637%);
   }
   #indigenous-sec {
     transform: translateY(640%);
   }
   #indigenousinfo {
-    transform: translateY(888%);
+    transform: translateY(720%);
   }
   #nexus-sec {
     transform: translateY(1045%);
   }
   #nexusinfo {
-    transform: translateY(1020%);
+    transform: translateY(1105%);
   }
   #examine-sec {
-    transform: translateY(1150%);
+    transform: translateY(1140%);
+  }
+  #examineinfo {
+    transform: translateY(1185%);
   }
   #decision-sec {
-    transform: translateY(1145%);
+    transform: translateY(1128%);
     background: url(../img/dec-img-left.png) top left no-repeat,
                 url(../img/dec-img-right.png) top right no-repeat,
                 url(../img/top-green-dw-white.png) top no-repeat,
@@ -1051,31 +1072,43 @@ color: white;
                 linear-gradient(180deg, rgba(218,244,244,0) 26%, rgba(35,65,53,1) 26%);
   }
   #download-sec {
-    transform: translateY(656%);
+    transform: translateY(671%);
   }
   #footer {
-    transform: translateY(2115%);
+    transform: translateY(2078%);
   }
 }
 
 @media only screen and (max-width: 575px){
   #linkinginfo {
-    transform: translateY(188%);
+    transform: translateY(192%);
   }
   #network-sec {
     transform: translateY(230%);
   }
+  #networkinfo {
+    transform: translateY(449%);
+  }
   #protectinfo {
     transform: translateY(690%);
   }
+  #indigenousinfo {
+    transform: translateY(728%);
+  }
   #nexus-sec {
-    transform: translateY(1025%);
+    transform: translateY(1050%);
+  }
+  #examine-sec {
+    transform: translateY(1218%);
   }
   #examineinfo {
-    transform: translateY(1130%);
+    transform: translateY(1240%);
   }
   #decision-sec {
-    transform: translateY(1113%);
+    transform: translateY(1165%);
+  }
+  #download-sec {
+    transform: translateY(697%);
   }
   #footer {
     transform: translateY(2008%);
@@ -1110,12 +1143,12 @@ color: white;
     }
 
   #linking-sec {
-    transform: translateY(105%);
+    transform: translateY(155%);
     padding: 22rem 2.5rem 4rem 0;
   }
 
   #linkinginfo {
-    transform: translateY(100.5%);
+    transform: translateY(126%);
     width: 100%;
     padding-top: 4rem;
     padding-right: 2.5rem;
@@ -1124,14 +1157,14 @@ color: white;
       transform: translateY(-113%);
     }
   #network-sec {
-    transform: translateY(343%);
+    transform: translateY(385%);
     padding-top: 18rem;
     padding-bottom: 5rem;
     padding-right: 2.8rem;
   }
 
   #networkinfo {
-    transform: translateY(291%);
+    transform: translateY(332%);
     padding-top: 0rem;
     padding-right: 2.5rem;
   }
@@ -1140,13 +1173,13 @@ color: white;
     }
 
   #protecting-sec {
-    transform: translateY(580%);
+    transform: translateY(615%);
     padding-top: 26rem;
     padding-bottom: 5rem;
     padding-right: 2.5rem;
   }
   #protectinfo {
-    transform: translateY(464.5%);
+    transform: translateY(478.5%);
     padding-top: 5rem;
     padding-right: 2.5rem;
   }
@@ -1155,35 +1188,35 @@ color: white;
     }
 
   #indigenous-sec {
-    transform: translateY(975%);
+    transform: translateY(1013%);
     padding-top: 8rem;
     padding-bottom: 5rem;
     padding-right: 2.5rem;
   }
   #indigenousinfo {
-    transform: translateY(600%);
+    transform: translateY(500%);
     padding-top: 2rem;
     padding-right: 2.5rem;
   }
   #nexus-sec {
-    transform: translateY(1135%);
+    transform: translateY(1210%);
     padding-top: 19rem;
     padding-bottom: 8rem;
     padding-right: 2.5rem;
   }
   #nexusinfo {
-    transform: translateY(697%);
+    transform: translateY(793%);
     padding-top: 5rem;
     padding-right: 2.5rem;
   }
   #examine-sec {
-    transform: translateY(2045%);
+    transform: translateY(2135%);
     padding-top: 8rem;
     padding-bottom: 4rem;
     padding-right: 2.5rem;
   }
   #examineinfo {
-    transform: translateY(843%);
+    transform: translateY(902%);
     padding-top: 3rem;
     padding-right: 2.5rem;
   }
@@ -1201,13 +1234,13 @@ color: white;
     /*background-image: url("../img/dec-img-right.png"), url("../img/top-green-dw-white.png"), url("../img/bottom-green-down-lime.png");*/
     /*background-position: center right, top, bottom;*/
     background-size: contain;
-    transform: translateY(1810%);
+    transform: translateY(1858%);
     padding-bottom: 4.85rem;
     padding-right: 2.5rem;
   }
 
   #download-sec {
-    transform: translateY(745.5%);
+    transform: translateY(812.5%);
     padding-bottom: 4rem;
     padding-top: 4rem;
     padding-right: 2.5rem;
@@ -1215,7 +1248,7 @@ color: white;
 
   #footer {
     padding: 8rem 2.5rem 3rem 0;
-    transform: translateY(2733%);
+    transform: translateY(2807%);
     text-align: center;
   }
    #age-sec {
@@ -1287,47 +1320,50 @@ color: white;
       transform: translateY(120%);
     }
     #linkinginfo {
-      transform: translateY(110%);
+      transform: translateY(105%);
     }
     #network-sec {
-      transform: translateY(350%);
+      transform: translateY(363%);
     }
     #networkinfo {
-      transform: translateY(317%);
+      transform: translateY(303%);
     }
     #protecting-sec {
-      transform: translateY(575%);
+      transform: translateY(620%);
     }
     #protectinfo {
-      transform: translateY(474%);
+      transform: translateY(432%);
+    }
+    #indigenous-sec {
+      transform: translateY(881%);
     }
     #indigenousinfo {
-      transform: translateY(552%);
+      transform: translateY(475%);
     }
     #nexus-sec {
-      transform: translateY(1058%);
+      transform: translateY(1272%);
     }
     #nexusinfo {
-      transform: translateY(652%);
+      transform: translateY(775%);
     }
     #examine-sec {
-      transform: translateY(1930%);
+      transform: translateY(1995%);
     }
     #examineinfo {
-      transform: translateY(797%);
+      transform: translateY(855%);
     }
     #decision-sec {
     background: url(../img/dec-img-right.png) center right no-repeat,
                 url(../img/top-green-dw-white.png) top no-repeat,
                 url(../img/bottom-green-down-lime.png) bottom no-repeat,
                 linear-gradient(180deg, rgba(218,244,244,0) 4%, rgba(35,65,53,1) 4%);
-    transform: translateY(1807%);
+    transform: translateY(1825%);
     }
     #download-sec {
-      transform: translateY(707.5%);
+      transform: translateY(827%);
     }
     #footer {
-      transform: translateY(2613%);
+      transform: translateY(2955%);
     }
 }
 
