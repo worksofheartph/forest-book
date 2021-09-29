@@ -223,13 +223,13 @@ section {
               url("../img/dec-img-right.png") top right no-repeat, 
               url("../img/top-green-dw-white.png") top no-repeat,
               url("../img/bottom-green-down-lime.png") bottom no-repeat,
-              linear-gradient(180deg, rgba(218,244,244,0) 28%, rgba(35,65,53,1) 28%);
+              linear-gradient(180deg, rgba(218,244,244,0) 26%, rgba(35,65,53,1) 26%);
   background-size: auto, auto, auto, contain;
   /*background-image: url("../img/dec-img-left.png"), url("../img/dec-img-right.png"), url("../img/top-green-dw-white.png"), url("../img/bottom-green-down-lime.png");*/
   /*background-repeat: no-repeat;
   background-position: top left, top right, top, bottom;
   background-size: auto, auto, auto, contain;*/
-  transform: translateY(958%);
+  transform: translateY(888%);
   padding-bottom: 20rem;
   padding-top: 30rem;
   width: 100%;
@@ -241,7 +241,7 @@ section {
   background-repeat: no-repeat;
   background-position: top, bottom;
   background-size: contain;
-  transform: translateY(709%);
+  transform: translateY(704%);
   width: 100%;
   top: 0;
   padding-bottom: 10rem;
@@ -551,7 +551,7 @@ section {
   padding-bottom: 10rem;
 }
 #networkinfo{
-  transform: translateY(450%);
+  transform: translateY(419%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -758,7 +758,7 @@ color: white;
     padding-bottom: 13rem;
   }
   #networkinfo {
-    transform: translateY(552%);
+    transform: translateY(509%);
     padding-top: 0rem;
   }
     #networkinfo img {
@@ -810,7 +810,13 @@ color: white;
     transform: translateY(1445%);
   }
   #decision-sec{
-    transform: translateY(1012%); 
+    transform: translateY(945%);
+    background: url(../img/dec-img-left.png) top left no-repeat, 
+                url(../img/dec-img-right.png) top right no-repeat,
+                url(../img/top-green-dw-white.png) top no-repeat,
+                url(../img/bottom-green-down-lime.png) bottom no-repeat,
+                linear-gradient(180deg, rgba(218,244,244,0) 26%, rgba(35,65,53,1) 26%);
+    background-size: auto, auto, auto, contain;
   }
   #download-sec {
     transform: translateY(745%);
@@ -832,7 +838,7 @@ color: white;
     padding-bottom: 10.5rem;
   }
   #footer{
-    transform: translateY(2360%);
+    transform: translateY(2346%);
   }
 }
 
@@ -844,10 +850,10 @@ color: white;
     padding: 23rem 0px 35rem;
   }
   #linkinginfo {
-    transform: translateY(199%);
+    transform: translateY(220%);
   }
   #networkinfo {
-    transform: translateY(458%);
+    transform: translateY(428%);
   }
   #protectinfo {
     transform: translateY(767%);
@@ -878,14 +884,14 @@ color: white;
               url("../img/top-green-dw-white.png") top no-repeat,
               url("../img/bottom-green-down-lime.png") bottom no-repeat,
               linear-gradient(180deg, rgba(218,244,244,0) 30%, rgba(35,65,53,1) 30%);
-    transform: translateY(1113%);
+    transform: translateY(1070%);
     padding-bottom:8rem;
   }
   #download-sec{
-    transform: translateY(778%);
+    transform: translateY(773%);
   }
   #footer{
-    transform: translateY(2279%);
+    transform: translateY(2266%);
   }
 }
 
@@ -926,6 +932,16 @@ color: white;
 
 @media only screen
   and (max-width: 700px){
+  #nav {
+    right: -0.8rem;
+    top: 25%;
+  }
+  #nav button{
+    margin: 0 !important;
+  }
+  .navbar-nav a {
+    width: 50px;
+  }
   #hero{
     padding-bottom: 32%
   }
@@ -944,70 +960,81 @@ color: white;
 
   #linking-sec {
     transform: translateY(105%);
-    padding: 22rem 0 4rem;
+    padding: 22rem 2.5rem 4rem 0;
   }
 
   #linkinginfo {
-    transform: translateY(113%);
+    transform: translateY(100.5%);
     width: 100%;
     padding-top: 4rem;
+    padding-right: 2.5rem;
   }
     #linkinginfo img {
       transform: translateY(-113%);
     }
   #network-sec {
-    transform: translateY(335%);
+    transform: translateY(343%);
     padding-top: 18rem;
     padding-bottom: 5rem;
+    padding-right: 2.8rem;
   }
 
   #networkinfo {
-    transform: translateY(321%);
+    transform: translateY(291%);
     padding-top: 0rem;
+    padding-right: 2.5rem;
   }
     #networkinfo img {
       transform: translateY(-275%);
     }
 
   #protecting-sec {
-    transform: translateY(560%);
+    transform: translateY(580%);
     padding-top: 26rem;
     padding-bottom: 5rem;
+    padding-right: 2.5rem;
   }
   #protectinfo {
-    transform: translateY(475%);
-    padding-top: 3rem;
+    transform: translateY(464.5%);
+    padding-top: 5rem;
+    padding-right: 2.5rem;
   }
     #protectinfo img{
       transform: translateY(33%);
     }
 
   #indigenous-sec {
-    transform: translateY(888%);
+    transform: translateY(975%);
     padding-top: 8rem;
     padding-bottom: 5rem;
+    padding-right: 2.5rem;
   }
   #indigenousinfo {
-    transform: translateY(608%);
+    transform: translateY(600%);
     padding-top: 2rem;
+    padding-right: 2.5rem;
   }
   #nexus-sec {
-    transform: translateY(1045%);
+    transform: translateY(1135%);
     padding-top: 19rem;
     padding-bottom: 8rem;
+    padding-right: 2.5rem;
   }
   #nexusinfo {
-    transform: translateY(685%);
+    transform: translateY(697%);
     padding-top: 5rem;
+    padding-right: 2.5rem;
   }
   #examine-sec {
-    transform: translateY(1970%);
+    transform: translateY(2045%);
     padding-top: 8rem;
     padding-bottom: 4rem;
+    padding-right: 2.5rem;
   }
   #examineinfo {
-    transform: translateY(847%);
+    transform: translateY(843%);
     padding-top: 3rem;
+    padding-right: 2.5rem;
   }
 
   .preview h4 {
@@ -1023,23 +1050,26 @@ color: white;
     /*background-image: url("../img/dec-img-right.png"), url("../img/top-green-dw-white.png"), url("../img/bottom-green-down-lime.png");*/
     /*background-position: center right, top, bottom;*/
     background-size: contain;
-    transform: translateY(1790%);
+    transform: translateY(1810%);
     padding-bottom: 4.85rem;
+    padding-right: 2.5rem;
   }
 
   #download-sec {
-    transform: translateY(706.5%);
+    transform: translateY(745.5%);
     padding-bottom: 4rem;
     padding-top: 4rem;
+    padding-right: 2.5rem;
   }
 
   #footer {
-    padding: 8rem 0 3rem;
-    transform: translateY(2557%);
+    padding: 8rem 2.5rem 3rem 0;
+    transform: translateY(2733%);
     text-align: center;
   }
    #age-sec {
-    padding-top: 25%;
+    padding-top: 30%;
+    padding-right: 2.5rem;
     background-size: cover;
     padding-bottom: 10%;
     transform: translateY(-11%);
