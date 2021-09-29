@@ -1,4 +1,4 @@
-l* {
+* {
   margin: 0;
 }
 
@@ -229,7 +229,7 @@ section {
   /*background-repeat: no-repeat;
   background-position: top left, top right, top, bottom;
   background-size: auto, auto, auto, contain;*/
-  transform: translateY(888%);
+  transform: translateY(905%);
   padding-bottom: 20rem;
   padding-top: 30rem;
   width: 100%;
@@ -241,7 +241,7 @@ section {
   background-repeat: no-repeat;
   background-position: top, bottom;
   background-size: contain;
-  transform: translateY(704%);
+  transform: translateY(718%);
   width: 100%;
   top: 0;
   padding-bottom: 10rem;
@@ -512,7 +512,7 @@ section {
 #age-sec{
   color: #234135;
   background: url("../img/bg-anthrop.png") center top no-repeat;
-  background-size: contain;
+  background-size: cover;
   transform: translateY(-14%);
   padding: 32rem 0px 40rem;
   width: 100%;
@@ -551,7 +551,7 @@ section {
   padding-bottom: 10rem;
 }
 #networkinfo{
-  transform: translateY(419%);
+  transform: translateY(415%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -564,14 +564,14 @@ section {
 #protecting-sec {
   background: url("../img/protecting-bg.png") top center no-repeat;
   background-size: auto;
-  transform: translateY(360%);
+  transform: translateY(365%);
   width: 100%;
   padding-top: 38rem;
   padding-bottom: 10rem;
 }
 
 #protectinfo{
-  transform: translateY(764%);
+  transform: translateY(773%);
   width: 100%;
   padding-top: 5.5rem;
 }
@@ -584,7 +584,7 @@ section {
 #indigenous-sec {
   background: url("../img/indigenous-bg.png") top center no-repeat;
   background-size: cover;
-  transform: translateY(621%);
+  transform: translateY(627%);
   width: 100%;
   padding-top: 20rem;
   padding-bottom: 10rem;
@@ -604,7 +604,7 @@ section {
 #nexus-sec {
   background: url("../img/nexus-bg.png") top center no-repeat;
   background-size: cover;
-  transform: translateY(765%);
+  transform: translateY(790%);
   width: 100%;
   padding-top: 28rem;
   padding-bottom: 7rem;
@@ -615,7 +615,7 @@ section {
     transform: translateY(5%);
   }
 #nexusinfo{
-  transform: translateY(1165%);
+  transform: translateY(1183%);
   width: 100%;
   padding-top: 5rem;
 }
@@ -623,7 +623,7 @@ section {
 #examine-sec {
   background: url("../img/examine-bg.png") top center no-repeat;
   background-size: cover;
-  transform: translateY(900%);
+  transform: translateY(921%);
   width: 100%;
   padding-top: 28rem;
   padding-bottom: 9rem;
@@ -634,12 +634,10 @@ section {
     transform: translateY(1%);
   }
 #examineinfo{
-  transform: translateY(1355%);
+  transform: translateY(1364%);
   width: 100%;
   padding-top: 5rem;
 }
-
-
 
 
 #download-sec {
@@ -838,11 +836,42 @@ color: white;
     padding-bottom: 10.5rem;
   }
   #footer{
-    transform: translateY(2346%);
+    transform: translateY(2386%);
   }
 }
 
-@media (min-width:1024px) and (max-width: 1190px){
+@media (max-width: 1200px){
+  #networkinfo {
+    transform: translateY(450%);
+    width: 100%;
+    padding-top: 1rem;
+  }
+  #indigenousinfo {
+    transform: translateY(1049%);
+    width: 100%;
+    padding-top: 2rem;
+  }
+  #nexus-sec {
+    transform: translateY(780%);
+  }
+  #nexusinfo {
+    transform: translateY(1170%);
+  }
+  #examine-sec {
+    transform: translateY(913%);
+  }
+  #decision-sec{
+    transform: translateY(900%);
+  }
+  #download-sec{
+    transform: translateY(714%);
+  }
+  #footer{
+    transform: translateY(2292%);
+  }
+}
+
+@media screen and (max-width: 1190px) {
   #hero-top object {
     top: 14rem;
   }
@@ -850,19 +879,19 @@ color: white;
     padding: 23rem 0px 35rem;
   }
   #linkinginfo {
-    transform: translateY(220%);
+    transform: translateY(218%);
   }
   #networkinfo {
-    transform: translateY(428%);
+    transform: translateY(458%);
   }
   #protectinfo {
-    transform: translateY(767%);
+    transform: translateY(758%);
   }
   #indigenous-sec {
     transform: translateY(600%);
   }
   #indigenousinfo {
-    transform: translateY(965%);
+    transform: translateY(1030%);
   }
   #nexus-sec {
     transform: translateY(1028%);
@@ -876,7 +905,7 @@ color: white;
     padding-top: 16rem;
   }
   #examineinfo {
-    transform: translateY(1227%);
+    transform: translateY(1210%);
   }
   #decision-sec{
     background: url("../img/dec-img-left.png") top left no-repeat,
@@ -888,28 +917,45 @@ color: white;
     padding-bottom:8rem;
   }
   #download-sec{
-    transform: translateY(773%);
+    transform: translateY(776%);
   }
   #footer{
     transform: translateY(2266%);
   }
 }
 
-@media only screen
-  and (max-width: 900px)
- {
+@media only screen and (max-width: 990px) {
+  #linkinginfo {
+    transform: translateY(209%);
+  }
+  #networkinfo {
+    transform: translateY(428%);
+  }
+  #protecting-sec {
+    transform: translateY(385%);
+  }
+  #protectinfo {
+    transform: translateY(734%);
+  }
+  #indigenous-sec {
+    transform: translateY(590%);
+  }
+  #nexus-sec {
+    transform: translateY(945%);
+  }
+  #nexusinfo {
+    transform: translateY(1077%);
+  }
+  #footer {
+    transform: translateY(2185%);
+  }
+}
+
+@media only screen and (max-width: 900px) {
    h1 {
     font-size: 3rem;
     font-weight: lighter;
     margin: 20px 0;
-  }
-}
-
-@media only screen
-  and (max-width: 900px)
- {
-   h1 {
-    font-size: 3rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -924,14 +970,119 @@ color: white;
     position: relative;
     top: -80;
   }
-  #footer{
-    transform: translateY(2465%);
+  #network-sec{
+    transform: translateY(215%);
   }
-
+  #networkinfo {
+    transform: translateY(404%);
+  }
+  #protecting-sec {
+    transform: translateY(390%);
+  }
+  #protectinfo {
+    transform: translateY(695%);
+  }
+  #indigenous-sec {
+    transform: translateY(650%);
+  }
+  #indigenousinfo {
+    transform: translateY(960%);
+  }
+  #nexus-sec {
+    transform: translateY(1022%);
+  }
+  #nexusinfo {
+    transform: translateY(1005%)
+  }
+  #examine-sec {
+    transform: translateY(1202%);
+  }
+  #examineinfo {
+    transform: translateY(1175%);
+  }
+  #decision-sec{
+    transform: translateY(1186%);
+  }
+  #download-sec {
+    transform: translateY(851%);
+  }
+  #footer{
+    transform: translateY(2337%);
+  }
 }
 
-@media only screen
-  and (max-width: 700px){
+@media only screen and (max-width: 767px) {
+  #linkinginfo {
+    transform: translateY(171%);
+  }
+  #network-sec {
+    transform: translateY(235%);
+  }
+  #networkinfo {
+    transform: translateY(439%);
+  }
+  #protecting-sec {
+    transform: translateY(406%);
+  }
+  #protectinfo {
+    transform: translateY(650%);
+  }
+  #indigenous-sec {
+    transform: translateY(640%);
+  }
+  #indigenousinfo {
+    transform: translateY(888%);
+  }
+  #nexus-sec {
+    transform: translateY(1045%);
+  }
+  #nexusinfo {
+    transform: translateY(1020%);
+  }
+  #examine-sec {
+    transform: translateY(1150%);
+  }
+  #decision-sec {
+    transform: translateY(1145%);
+    background: url(../img/dec-img-left.png) top left no-repeat,
+                url(../img/dec-img-right.png) top right no-repeat,
+                url(../img/top-green-dw-white.png) top no-repeat,
+                url(../img/bottom-green-down-lime.png) bottom no-repeat,
+                linear-gradient(180deg, rgba(218,244,244,0) 26%, rgba(35,65,53,1) 26%);
+  }
+  #download-sec {
+    transform: translateY(656%);
+  }
+  #footer {
+    transform: translateY(2115%);
+  }
+}
+
+@media only screen and (max-width: 575px){
+  #linkinginfo {
+    transform: translateY(188%);
+  }
+  #network-sec {
+    transform: translateY(230%);
+  }
+  #protectinfo {
+    transform: translateY(690%);
+  }
+  #nexus-sec {
+    transform: translateY(1025%);
+  }
+  #examineinfo {
+    transform: translateY(1130%);
+  }
+  #decision-sec {
+    transform: translateY(1113%);
+  }
+  #footer {
+    transform: translateY(2008%);
+  }
+}
+
+@media only screen and (max-width: 414px){
   #nav {
     right: -0.8rem;
     top: 25%;
