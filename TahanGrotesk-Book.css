@@ -1,4 +1,5 @@
-/* Webfont: TahanGrotesk-Book */@font-face {
+/* Webfont: TahanGrotesk-Book */
+@font-face {
     font-family: 'TahanGroteskBook';
     src: url('TahanGrotesk-Book.eot'); /* IE9 Compat Modes */
     src: url('TahanGrotesk-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -11,7 +12,31 @@
 
 @font-face {
     font-family: 'Prophet';
+    src: url('Prophet-Regular.otf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Prophet-Medium';
     src: url('Prophet-Medium.otf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('NeueHaasUnicaW01-Regular.otf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NeueHaas-Medium';
+    src: url('NeueHaasUnicaW01-Medium.otf') format('truetype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
