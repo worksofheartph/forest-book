@@ -1651,7 +1651,7 @@ color: white;
   }
   #linking-sec {
     top:60rem;
-    padding: 22rem 2.5rem 4rem 0;
+    padding: 20rem 2.5rem 4rem 0;
   }
   #linkinginfo {
         background: url(../img/top-white.png) top center no-repeat,
@@ -1663,7 +1663,7 @@ color: white;
   }
   #network-sec {
     top:188rem;
-    padding-top: 18rem;
+    padding-top: 15rem;
     padding-bottom: 5rem;
     padding-right: 2.8rem;
   }
@@ -1684,7 +1684,7 @@ color: white;
   }
   #protectinfo {
     top:360rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-right: 2.5rem;
     padding-left: 1rem;
     background: url(../img/top-white.png) top center no-repeat,
@@ -1699,6 +1699,7 @@ color: white;
     padding-right: 2.5rem;
   }
   #indigenousinfo {
+    top: 475rem;
     padding-top: 4rem;
     padding-right: 2.5rem;
     padding-left: 1.5rem;
@@ -1707,8 +1708,8 @@ color: white;
     background-size: contain, auto;
   }
   #nexus-sec {
-    top:578rem;
-    padding-top: 19rem;
+    top:580rem;
+    padding-top: 16rem;
     padding-bottom: 8rem;
     padding-right: 2.5rem;
   }
@@ -1758,7 +1759,7 @@ color: white;
 
   #footer {
     padding: 8rem 2.5rem 3rem 0;
-    top:968rem;
+    top:964rem;
     text-align: center;
   }
 
@@ -1816,7 +1817,7 @@ color: white;
 @media only screen
   and (max-width: 393px){
     #age-sec {
-      padding-top: 45%;
+      padding-top: 38%;
     }
     #linking-sec {
       top:66rem;
@@ -1874,8 +1875,50 @@ color: white;
       top:917.5rem;
     }
     #footer {
-      top:1028rem;
+      top:1027rem;
     }
+}
+
+@media only screen and (max-width: 375px){
+  #linking-sec {
+    top: 68rem;
+  }
+  #network-sec {
+    top: 202rem;
+  }
+  #protecting-sec {
+    top: 334rem;
+  }
+  #protectinfo {
+    top: 382rem;
+  }
+  #indigenous-sec {
+    top: 470rem;
+  }
+  #indigenousinfo {
+    top: 515rem;
+  }
+  #nexus-sec {
+    top: 631rem;
+  }
+  #nexusinfo {
+    top: 667rem;
+  }
+  #examine-sec {
+    top: 754rem;
+  }
+  #examineinfo {
+    top: 785rem;
+  }
+  #decision-sec{
+    top: 887rem;
+  }
+  #download-sec {
+    top: 934.5rem;
+  }
+  #footer {
+    top: 1044rem;
+  }
 }
 
 .popup__overlay {
