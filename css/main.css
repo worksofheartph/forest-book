@@ -49,7 +49,7 @@ h5 {
 }
 p {
   font-size: 1.05rem;
-  font-family: Arimo, Arimo;
+  font-family: "NeueHaas", Arimo;
   line-height: 1.8rem;
   margin-bottom: 25px;
 
@@ -1793,7 +1793,7 @@ color: white;
 
   #hero-sub {
     position: relative;
-    padding: 0 3rem;
+    padding: 0 5rem 0 2rem;
     top: 0rem;
     text-align: center;
   }
@@ -1918,6 +1918,54 @@ color: white;
   }
   #footer {
     top: 1044rem;
+  }
+}
+
+@media only screen and (max-width: 349px){
+  #linking-sec {
+    top: 75rem;
+  }
+  #linkinginfo {
+    top: 120rem;
+  }
+  #network-sec {
+    top: 225rem;
+  }
+  #networkinfo {
+    top: 275rem;
+  }
+  #protecting-sec {
+    top: 376rem;
+  }
+  #protectinfo {
+    top: 427rem;
+  }
+  #indigenous-sec {
+    top: 520rem;
+  }
+  #indigenousinfo {
+    top: 570rem;
+  }
+  #nexus-sec {
+    top: 692rem;
+  }
+  #nexusinfo {
+    top: 732rem;
+  }
+  #examine-sec {
+    top: 830rem;
+  }
+  #examineinfo {
+    top: 863rem;
+  }
+  #decision-sec {
+    top: 983rem;
+  }
+  #download-sec {
+    top: 1031.5rem;
+  }
+  #footer {
+    top: 1147rem;
   }
 }
 
