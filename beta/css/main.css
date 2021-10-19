@@ -1655,6 +1655,13 @@ img.ff-logo {
 }
 
 @media only screen and (max-width: 414px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:100px;
+    top: 20;
+    right: 20;
+  }
   #hero{
     padding-bottom: 32%
   }
@@ -1841,6 +1848,13 @@ img.ff-logo {
 
 @media only screen
   and (max-width: 393px){
+    img.ff-logo {
+      position: absolute;
+      z-index: 10;
+      width:90px;
+      top: 20;
+      right: 20;
+    }
     #age-sec {
       padding-top: 38%;
     }
@@ -1905,6 +1919,13 @@ img.ff-logo {
 }
 
 @media only screen and (max-width: 375px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
   #linking-sec {
     top: 68rem;
   }
@@ -1947,6 +1968,13 @@ img.ff-logo {
 }
 
 @media only screen and (max-width: 349px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
   #linking-sec {
     top: 75rem;
   }
