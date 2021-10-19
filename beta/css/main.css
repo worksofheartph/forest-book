@@ -839,6 +839,14 @@ color: white;
   }
 }
 
+img.ff-logo {
+  position: absolute;
+  z-index: 10;
+  width:170px;
+  top: 50;
+  right: 60;
+}
+
 @media (min-width: 1200px) and (max-width:1439px){
   #linkinginfo {
     background: url(../img/top-white.png) top center no-repeat,
@@ -1416,6 +1424,15 @@ color: white;
 }
 
 @media only screen and (max-width: 640px){
+
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:150px;
+    top: 30;
+    right: 30;
+  }
+
   #age-sec{
     top:-11rem
   }
@@ -1546,6 +1563,14 @@ color: white;
 }
 
 @media only screen and (max-width: 480px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:100px;
+    top: 20;
+    right: 20;
+  }
+
   #nav {
     right: -0.8rem;
     top: 25%;
