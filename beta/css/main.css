@@ -1973,7 +1973,68 @@ img.ff-logo {
     line-height: 1.6rem;
     font-size: 1rem;
   }
-  
+
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
+  #linking-sec {
+    top: 75rem;
+  }
+  #linkinginfo {
+    top: 120rem;
+  }
+  #network-sec {
+    top: 225rem;
+  }
+  #networkinfo {
+    top: 275rem;
+  }
+  #protecting-sec {
+    top: 376rem;
+  }
+  #protectinfo {
+    top: 427rem;
+  }
+  #indigenous-sec {
+    top: 520rem;
+  }
+  #indigenousinfo {
+    top: 570rem;
+  }
+  #nexus-sec {
+    top: 692rem;
+  }
+  #nexusinfo {
+    top: 732rem;
+  }
+  #examine-sec {
+    top: 830rem;
+  }
+  #examineinfo {
+    top: 863rem;
+  }
+  #decision-sec {
+    top: 983rem;
+  }
+  #download-sec {
+    top: 1031.5rem;
+  }
+  #footer {
+    top: 1147rem;
+  }
+}
+
+@media only screen and (max-width: 343px){
+  #age-sec p {
+    color: #D6CD85;
+    line-height: 1.6rem;
+    font-size: 1rem;
+  }
+
   img.ff-logo {
     position: absolute;
     z-index: 10;
