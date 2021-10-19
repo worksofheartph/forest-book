@@ -1968,6 +1968,12 @@ img.ff-logo {
 }
 
 @media only screen and (max-width: 349px){
+  #age-sec p {
+    color: #D6CD85;
+    line-height: 1.6rem;
+    font-size: 1rem;
+  }
+  
   img.ff-logo {
     position: absolute;
     z-index: 10;
