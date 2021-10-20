@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.anthropocene.forestfoundation.ph [NC]
-RewriteRule ^(.*)$ http://anthropocene.forestfoundation.ph/$1 [L,R=301]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1$1 [R=301,L]
