@@ -1692,12 +1692,14 @@ img.ff-logo {
     width: 100%;
     padding-top: 4rem;
     padding-right: 2.5rem;
+    padding-left: 1rem;
   }
   #network-sec {
     top:188rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
     padding-right: 2.8rem;
+        padding-left: 1rem;
   }
 
   #networkinfo {
@@ -1707,12 +1709,14 @@ img.ff-logo {
     background: url(../img/top-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 2.5%, rgba(255,255,255,1) 2.5%);
     background-size: contain, auto;
+        padding-left: 1rem;
   }
   #protecting-sec {
     top:313rem;
     padding-top: 26rem;
     padding-bottom: 5rem;
     padding-right: 2.5rem;
+        padding-left: 1rem;
   }
   #protectinfo {
     top:360rem;
@@ -1738,6 +1742,7 @@ img.ff-logo {
     background: url(../img/bottom-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 2%, rgba(255,255,255,1) 2%);
     background-size: contain, auto;
+        padding-left: 1rem;
   }
   #nexus-sec {
     top:580rem;
@@ -1749,7 +1754,7 @@ img.ff-logo {
     top:616rem;
     padding-top: 3rem;
     padding-right: 2.5rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
   #examine-sec {
     top:694rem;
@@ -1761,6 +1766,7 @@ img.ff-logo {
     top:725rem;
     padding-top: 3rem;
     padding-right: 2.5rem;
+        padding-left: 1rem;
   }
 
   .preview h4 {
@@ -1777,6 +1783,12 @@ img.ff-logo {
     top:818rem;
     padding-bottom: 4.85rem;
     padding-right: 3rem;
+        padding-left: 1rem;
+  }
+
+  .about-editor {
+    font-family: Arimo;
+    padding-left: 2rem;
   }
 
   #download-sec {
