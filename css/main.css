@@ -7,7 +7,7 @@ body {
   font-family: "Prophet", sans-serif; /*"TahanGroteskBook", Tahan Grotesk;*/
   margin: 0;
   overflow-x: hidden;
-  /*background-color: #63832D;*/
+
 }
 
 img {
@@ -839,6 +839,14 @@ color: white;
   }
 }
 
+img.ff-logo {
+  position: absolute;
+  z-index: 10;
+  width:170px;
+  top: 50;
+  right: 60;
+}
+
 @media (min-width: 1200px) and (max-width:1439px){
   #linkinginfo {
     background: url(../img/top-white.png) top center no-repeat,
@@ -1219,7 +1227,7 @@ color: white;
     top:782rem;
   }
   #footer {
-    top:875rem;
+    top:870rem; /* lastday */
   }
 }
 
@@ -1372,10 +1380,10 @@ color: white;
     top:754rem;
   }
   #download-sec {
-    top:823rem;
+    top:820rem; /* 823 lastday */
   }
   #footer {
-    top:946rem;
+    top:935rem; /* 946 lastday */
   }
 }
 
@@ -1416,6 +1424,15 @@ color: white;
 }
 
 @media only screen and (max-width: 640px){
+
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:150px;
+    top: 30;
+    right: 30;
+  }
+
   #age-sec{
     top:-11rem
   }
@@ -1546,6 +1563,14 @@ color: white;
 }
 
 @media only screen and (max-width: 480px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:100px;
+    top: 20;
+    right: 20;
+  }
+
   #nav {
     right: -0.8rem;
     top: 25%;
@@ -1630,6 +1655,13 @@ color: white;
 }
 
 @media only screen and (max-width: 414px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:100px;
+    top: 20;
+    right: 20;
+  }
   #hero{
     padding-bottom: 32%
   }
@@ -1660,12 +1692,14 @@ color: white;
     width: 100%;
     padding-top: 4rem;
     padding-right: 2.5rem;
+    padding-left: 1rem;
   }
   #network-sec {
     top:188rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
     padding-right: 2.8rem;
+        padding-left: 1rem;
   }
 
   #networkinfo {
@@ -1675,12 +1709,14 @@ color: white;
     background: url(../img/top-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 2.5%, rgba(255,255,255,1) 2.5%);
     background-size: contain, auto;
+        padding-left: 1rem;
   }
   #protecting-sec {
     top:313rem;
     padding-top: 26rem;
     padding-bottom: 5rem;
     padding-right: 2.5rem;
+        padding-left: 1rem;
   }
   #protectinfo {
     top:360rem;
@@ -1706,6 +1742,7 @@ color: white;
     background: url(../img/bottom-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 2%, rgba(255,255,255,1) 2%);
     background-size: contain, auto;
+        padding-left: 1rem;
   }
   #nexus-sec {
     top:580rem;
@@ -1717,7 +1754,7 @@ color: white;
     top:616rem;
     padding-top: 3rem;
     padding-right: 2.5rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
   #examine-sec {
     top:694rem;
@@ -1729,6 +1766,7 @@ color: white;
     top:725rem;
     padding-top: 3rem;
     padding-right: 2.5rem;
+        padding-left: 1rem;
   }
 
   .preview h4 {
@@ -1745,10 +1783,16 @@ color: white;
     top:818rem;
     padding-bottom: 4.85rem;
     padding-right: 3rem;
+        padding-left: 1rem;
+  }
+
+  .about-editor {
+    font-family: Arimo;
+    padding-left: 2rem;
   }
 
   #download-sec {
-    top:861rem;
+    top:860rem; /* 861 lastday */
     padding-bottom: 4rem;
     padding-top: 4rem;
     padding-right: 2.5rem;
@@ -1759,7 +1803,7 @@ color: white;
 
   #footer {
     padding: 8rem 2.5rem 3rem 0;
-    top:964rem;
+    top:964rem; /* 964 lastday */
     text-align: center;
   }
 
@@ -1816,6 +1860,13 @@ color: white;
 
 @media only screen
   and (max-width: 393px){
+    img.ff-logo {
+      position: absolute;
+      z-index: 10;
+      width:90px;
+      top: 20;
+      right: 20;
+    }
     #age-sec {
       padding-top: 38%;
     }
@@ -1880,6 +1931,13 @@ color: white;
 }
 
 @media only screen and (max-width: 375px){
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
   #linking-sec {
     top: 68rem;
   }
@@ -1914,14 +1972,88 @@ color: white;
     top: 887rem;
   }
   #download-sec {
-    top: 934.5rem;
+    top: 930rem; /* 934.5 lastday */
   }
   #footer {
-    top: 1044rem;
+    top: 1038rem; /* 1044 lastday */
   }
 }
 
 @media only screen and (max-width: 349px){
+  #age-sec p {
+    color: #D6CD85;
+    line-height: 1.6rem;
+    font-size: 1rem;
+  }
+
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
+  #linking-sec {
+    top: 70rem;
+  }
+  #linkinginfo {
+    top: 120rem;
+  }
+  #network-sec {
+    top: 225rem;
+  }
+  #networkinfo {
+    top: 275rem;
+  }
+  #protecting-sec {
+    top: 376rem;
+  }
+  #protectinfo {
+    top: 427rem;
+  }
+  #indigenous-sec {
+    top: 520rem;
+  }
+  #indigenousinfo {
+    top: 570rem;
+  }
+  #nexus-sec {
+    top: 692rem;
+  }
+  #nexusinfo {
+    top: 732rem;
+  }
+  #examine-sec {
+    top: 830rem;
+  }
+  #examineinfo {
+    top: 863rem;
+  }
+  #decision-sec {
+    top: 983rem;
+  }
+  #download-sec {
+    top: 1031.5rem;
+  }
+  #footer {
+    top: 1147rem;
+  }
+}
+
+@media only screen and (max-width: 343px){
+  #age-sec p {
+    color: #D6CD85;
+    line-height: 1.5rem !important;
+    font-size: 1rem;
+  }
+
+  img.ff-logo {
+    position: absolute;
+    z-index: 10;
+    width:90px;
+    top: 20;
+    right: 20;
+  }
   #linking-sec {
     top: 75rem;
   }
