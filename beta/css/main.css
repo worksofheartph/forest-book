@@ -7,7 +7,7 @@ body {
   font-family: "Prophet", sans-serif; /*"TahanGroteskBook", Tahan Grotesk;*/
   margin: 0;
   overflow-x: hidden;
-  *background-color: #63832D;
+
 }
 
 img {
@@ -1227,7 +1227,7 @@ img.ff-logo {
     top:782rem;
   }
   #footer {
-    top:875rem;
+    top:870rem; /* lastday */
   }
 }
 
@@ -1380,10 +1380,10 @@ img.ff-logo {
     top:754rem;
   }
   #download-sec {
-    top:823rem;
+    top:820rem; /* 823 lastday */
   }
   #footer {
-    top:946rem;
+    top:935rem; /* 946 lastday */
   }
 }
 
@@ -1780,7 +1780,7 @@ img.ff-logo {
   }
 
   #download-sec {
-    top:861rem;
+    top:860rem; /* 861 lastday */
     padding-bottom: 4rem;
     padding-top: 4rem;
     padding-right: 2.5rem;
@@ -1791,7 +1791,7 @@ img.ff-logo {
 
   #footer {
     padding: 8rem 2.5rem 3rem 0;
-    top:964rem;
+    top:964rem; /* 964 lastday */
     text-align: center;
   }
 
@@ -1960,10 +1960,10 @@ img.ff-logo {
     top: 887rem;
   }
   #download-sec {
-    top: 934.5rem;
+    top: 933rem; /* 934.5 lastday */
   }
   #footer {
-    top: 1044rem;
+    top: 1043rem; /* 1044 lastday */
   }
 }
 
