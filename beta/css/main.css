@@ -7,7 +7,7 @@ body {
   font-family: "Prophet", sans-serif; /*"TahanGroteskBook", Tahan Grotesk;*/
   margin: 0;
   overflow-x: hidden;
-  /*background-color: #63832D;*/
+  *background-color: #63832D;
 }
 
 img {
