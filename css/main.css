@@ -552,7 +552,7 @@ section {
   background: url("../img/network-bg.png") top center no-repeat;
   background-size: cover;
   /*transform: translateY(200%);*/
-  top: 139rem;
+  top: 137rem;
   width: 100%;
   padding-top: 30rem;
   padding-bottom: 10rem;
@@ -760,7 +760,7 @@ color: white;
     background-size: contain, auto;
   }
   #network-sec{
-    top:158rem;
+    top:157rem;
     padding-bottom: 13rem;
   }
   #networkinfo {
@@ -1947,7 +1947,7 @@ img.ff-logo {
     top: 68rem;
   }
   #network-sec {
-    top: 202rem;
+    top: 201rem;
   }
   #protecting-sec {
     top: 334rem;
@@ -2005,7 +2005,7 @@ img.ff-logo {
     top: 120rem;
   }
   #network-sec {
-    top: 225rem;
+    top: 224rem;
   }
   #networkinfo {
     top: 275rem;
