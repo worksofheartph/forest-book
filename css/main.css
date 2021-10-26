@@ -1031,6 +1031,11 @@ img.ff-logo {
 
 
 @media (max-width: 1024px) {
+
+  #hero{
+    background-attachment: scroll
+  }
+
   #networkinfo {
     background: url(../img/top-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 9.5%, rgba(255,255,255,1) 9.5%);
@@ -1516,7 +1521,7 @@ img.ff-logo {
   }
 }
 
-@media only screen and (max-width: 585px){ /*from 575*/
+@media only screen and (max-width: 575px){ /*from 575*/
   #linkinginfo {
     background: url(../img/top-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 4%, rgba(255,255,255,1) 4%);
@@ -1923,10 +1928,10 @@ img.ff-logo {
     top:871rem;
     }
     #download-sec {
-      top:917.5rem;
+      top:916rem;
     }
     #footer {
-      top:1027rem;
+      top:1026rem;
     }
 }
 
