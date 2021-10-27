@@ -1029,12 +1029,12 @@ img.ff-logo {
   }
 }
 
-
-@media (max-width: 1024px) {
-
+@media only screen and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   #hero{
     background-attachment: scroll
   }
+}
+@media (max-width: 1024px) {
 
   #networkinfo {
     background: url(../img/top-white.png) top center no-repeat,
@@ -1931,7 +1931,7 @@ img.ff-logo {
       top:913rem;
     }
     #footer {
-      top:1022rem;
+      top:1020rem;
     }
 }
 
