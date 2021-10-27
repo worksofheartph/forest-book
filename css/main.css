@@ -1346,11 +1346,11 @@ img.ff-logo {
 }
 
 
-@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+/*@media only screen and (max-device-width: 767px) and (orientation: portrait) {
   #hero{
     background-attachment: scroll
   }
-}
+}*/
 @media only screen and (max-width: 767px) {
   #hero{
     background-attachment: scroll
