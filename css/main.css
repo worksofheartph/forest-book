@@ -1251,17 +1251,11 @@ img.ff-logo {
     background-size: contain, auto;
   }
 }
-@media only screen and (max-device-width: 834px) and (orientation: portrait) {
-  #hero{
-    background-attachment: scroll
-  }
-}
+
 
 
 @media (max-width: 830px) {
-  #hero{
-    background-attachment: scroll
-  }
+
 
   #indigenousinfo {
     background: url(../img/bottom-white.png) top center no-repeat,
@@ -1351,7 +1345,17 @@ img.ff-logo {
   }
 }
 
+
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+  #hero{
+    background-attachment: scroll
+  }
+}
 @media only screen and (max-width: 767px) {
+  #hero{
+    background-attachment: scroll
+  }
+
   #agesec-copy {
     transform: translateX(0rem);
   }
