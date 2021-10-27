@@ -1156,8 +1156,9 @@ img.ff-logo {
 
 
 @media (max-width: 900px) {
-
-
+  #hero{
+    background-attachment: scroll
+  }
   #logo-container {
     width: 100%;
   }
@@ -1346,15 +1347,8 @@ img.ff-logo {
 }
 
 
-/*@media only screen and (max-device-width: 767px) and (orientation: portrait) {
-  #hero{
-    background-attachment: scroll
-  }
-}*/
 @media only screen and (max-width: 767px) {
-  #hero{
-    background-attachment: scroll
-  }
+
 
   #agesec-copy {
     transform: translateX(0rem);
