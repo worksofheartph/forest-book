@@ -1238,9 +1238,7 @@ img.ff-logo {
 
 
 @media (max-width: 836px) {
-  #hero{
-    background-attachment: scroll;
-  }
+
 
 
   #protectinfo {
@@ -1297,6 +1295,10 @@ img.ff-logo {
 }
 
 @media only screen and (max-width: 768px) {
+  #hero{
+    background-attachment: scroll;
+  }
+  
   #age-sec {
     padding: 17rem 0px 35rem;
   }
