@@ -1156,9 +1156,8 @@ img.ff-logo {
 
 
 @media (max-width: 900px) {
-  #hero{
-    background-attachment: scroll
-  }
+
+
   #logo-container {
     width: 100%;
   }
@@ -1239,6 +1238,9 @@ img.ff-logo {
 
 
 @media (max-width: 836px) {
+  #hero{
+    background-attachment: scroll;
+  }
 
 
   #protectinfo {
