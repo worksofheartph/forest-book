@@ -1236,18 +1236,10 @@ img.ff-logo {
   }
 }
 
-@media only screen and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  #hero{
-    background-attachment: scroll
-  }
-}
-
 
 @media (max-width: 836px) {
-  #hero{
-    background-attachment: scroll
-  }
-  
+
+
   #protectinfo {
     background: url(../img/top-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 8%, rgba(255,255,255,1) 8%);
@@ -1259,7 +1251,18 @@ img.ff-logo {
     background-size: contain, auto;
   }
 }
+@media only screen and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  #hero{
+    background-attachment: scroll
+  }
+}
+
+
 @media (max-width: 830px) {
+  #hero{
+    background-attachment: scroll
+  }
+
   #indigenousinfo {
     background: url(../img/bottom-white.png) top center no-repeat,
                 linear-gradient(180deg, rgba(255,255,255,0) 6%, rgba(255,255,255,1) 6%);
