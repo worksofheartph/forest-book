@@ -1251,7 +1251,7 @@ img.ff-logo {
     background-size: contain, auto;
   }
 }
-@media only screen and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (max-device-width: 834px) and (orientation: portrait) {
   #hero{
     background-attachment: scroll
   }
